@@ -1,2 +1,2 @@
-FROM node:carbon
-EXPOSE 8080
+FROM tomcat:9.0
+COPY webapp.war /usr/local/tomcat/webapps
